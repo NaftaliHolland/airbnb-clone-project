@@ -33,3 +33,13 @@ Through this project, I aim to deepen my understanding of backend architecture, 
 - **Database Administrator**: Manages database design, indexing, and optimizations.
 - **DevOps Engineer**: Handles deployment, monitoring, and scaling of the backend services.
 - **QA Engineer**: Ensures the backend functionalities are thoroughly tested and meet quality standards.
+
+## Database Design
+### Key Entities
+- Users - Fields(Id, Name, email, location). Relationships(Can have multiple properties, can have multiple bookings, can have multiple reviews)
+- Properties - Fields(id, name, location, price, description, status)
+- Bookings - Fields(id, property, user, created_at, status). Relationships(Can only have on property, can only have one user)
+- Reviews - Fields(id, user, text). Relationships(Can have only one user)
+- Payments - Fields(id, status, booking)
+
+###
