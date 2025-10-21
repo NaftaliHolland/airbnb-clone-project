@@ -18,10 +18,13 @@ Through this project, I aim to deepen my understanding of backend architecture, 
 
 <!-- Tech stach -->
 ## Tech Stack
-- Backend Framework: Django
-- Database: MySQL
-- API Layer: GraphQL
-- Version Control: Git & GitHub
-- Containerization & Deployment: Docker
-- CI/CD Tools: Github Actions
-- 
+- **Django**: A high-level Python Webframework used to build RESTful API.
+- **Django Rest Framework**: Provides tools for creating and managing RESTful APIs.
+- **PostgreSQL**: A powerfull relational database used for data storage.
+- **GraphQL**: Allows for flexible and efficient querying of data.
+- **Celery**: For handling asynchronous taks such as sending notifications or processing payments.
+- **Redis**: Used for caching and session management.
+- **Docker**: Containerization tool for consistent development and deployment environments.
+- **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
+<!-- Team roles -->
+## Team Roles
