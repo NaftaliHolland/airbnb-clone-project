@@ -17,7 +17,7 @@ Through this project, I aim to deepen my understanding of backend architecture, 
 - Collaborate using Github to simulate professional development environments.
 
 <!-- Tech stach -->
-## Tech Stack
+## Technology Stack
 - **Django**: A high-level Python Webframework used to build RESTful API.
 - **Django Rest Framework**: Provides tools for creating and managing RESTful APIs.
 - **PostgreSQL**: A powerfull relational database used for data storage.
