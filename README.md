@@ -42,4 +42,10 @@ Through this project, I aim to deepen my understanding of backend architecture, 
 - Reviews - Fields(id, user, text). Relationships(Can have only one user)
 - Payments - Fields(id, status, booking)
 
-###
+## Feature Breakdown
+- **User Authentication**: Register new users, authenticate, and manager user profiles.
+- **Property Management**: Crete, update, retreive, and delete property listings.
+- **Booking System**: Make, update, and manage bookings, including check-in and check-out details.
+- **Payment Processing**: Handle payment transactions related to bookings.
+- **Review System**: Post and manage review for properties.
+- **Datbase Optimizations**: **Indexing** - Implement indexes for fast retrieval of frequently accessed data and **Caching** - Use caching strategies to recue database oad an improve performance.
