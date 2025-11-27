@@ -49,3 +49,16 @@ Through this project, I aim to deepen my understanding of backend architecture, 
 - **Payment Processing**: Handle payment transactions related to bookings.
 - **Review System**: Post and manage review for properties.
 - **Datbase Optimizations**: **Indexing** - Implement indexes for fast retrieval of frequently accessed data and **Caching** - Use caching strategies to recue database oad an improve performance.
+
+## API Security
+### Authentication
+The system will use secure password-based authentication and JSON Web Tokens to verify user identity before granting access. Passwords will be safely hashed before storage, and tokens will be signed to prevent tampering.
+
+### Authorization
+Role, and permission-based access control ensures that guests, hosts, and admins can only perform actions they’re allowed to. This prevents unauthorized access to listings, bookings, payments, or administrative tools.
+
+### Rate Limiting
+Request limits will be applied to login attempts, API endpoints, and resource-heavy operations to prevent brute-force attacks, credential-stuffing, and denial-of-service attempts.
+
+### Loggin & Monitoring
+Request limits will be applied to login attempts, API endpoints, and resource-heavy operations to reduce the risks of brute-force attacks, credential-stuffing, and denial-of-service attempts.
